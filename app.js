@@ -4,14 +4,17 @@
 //
 
 
-let arr = document.getElementById("arr");
 let myForm = document.getElementById("myForm");
 myForm.addEventListener("submit", function(e) {
 	e.preventDefault();
-	let inputValue = document.getElementById("myForm").value;
-	arr.appendChild(inputValue);
+	let inputValue = document.getElementById("inputBox").value;
+	let newElement = document.createElement("li");
+	//console.log(inputValue);
+	newElement.innerHTML = inputValue;
+	document.getElementById("list").appendChild(newElement);
 });
 
-console.log(arr);
+
+//console.log(newElement);
 
 
