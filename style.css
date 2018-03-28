@@ -1,0 +1,28 @@
+header {
+	text-align: center;
+	color: rgb(234, 173, 66);
+	padding-top: 15px;
+	font-family: 'Share Tech', sans-serif;
+	font-size: 35px;
+
+}
+
+body {
+	background-image: url("https://images.unsplash.com/photo-1507683259920-29814caf4a88?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=79be95d327da33f35c382b557eb38e2f&auto=format&fit=crop&w=1050&q=80");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: black;
+
+}
+
+form {
+	color: rgb(234, 173, 66);
+	text-align: center;
+	font-family: 'Share Tech', sans-serif;
+	font-size: 20px;
+}
+
+#inputBox {
+	width: 300px;
+	height: 20px;
+}
