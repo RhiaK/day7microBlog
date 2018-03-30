@@ -3,24 +3,52 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 	<link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
 
 	<title>Micro Blog</title>
 </head>
 <body>
-	<header>
-		<h1>Micro Blog</h1>
-	</header>
-
-	<form id="myForm">
-	Input your text here:<br>
-	<input type="text" id="inputBox" placeholder="Enter your text here">
-	<input id="submit" type="submit" value="submit">
-	</form>
-	<ol id="list">
-		
-	</ol>
-
+	<div class="container-fluid">
+		<div class="row nopadding">
+			<div class="col-12">
+				<header>
+					<h1>Micro Blog</h1>
+				</header>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<form id="myForm">
+				Share Something:<br>
+				<input type="text" id="inputBox" placeholder="Enter your text here">
+				<input id="submit" type="submit" value="submit">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<ol id="list"></ol>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 nopadding">
+				<footer>
+					<ul>
+						<li>Created by Rhiannon Kaulitzke</li>
+						<li>2018</li>
+					</ul>
+				</footer>
+			</div>
+		</div>
+	</div>	
 
 	<script src="app.js"></script>
 </body>

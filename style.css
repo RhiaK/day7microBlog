@@ -1,34 +1,65 @@
 header {
 	text-align: center;
-	color: rgb(234, 173, 66);
-	padding-top: 15px;
+	color: rgb(107, 145, 26);
+	margin: 45px;
 	font-family: 'Share Tech', sans-serif;
-	font-size: 35px;
+	font-size: 50px;
+	background-color: rgba(0, 166, 184, 0.5);
 
 }
 
 body {
-	background-image: url("https://images.unsplash.com/photo-1507683259920-29814caf4a88?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=79be95d327da33f35c382b557eb38e2f&auto=format&fit=crop&w=1050&q=80");
-	background-size: 100%;
+	background-image: url("http://workbyholiday.com/wp-content/uploads/rippled-wall-background-01-hd-pictures-free-stock-photos-in-image-background-hd.jpg");
+	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	background-color: black;
+	padding-bottom: 60px;
 
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 form {
-	color: rgb(234, 173, 66);
+	color: rgb(107, 145, 26);
 	text-align: center;
 	font-family: 'Share Tech', sans-serif;
 	font-size: 20px;
+	margin-top: 20px;
 }
 
 #inputBox {
-	width: 300px;
-	height: 20px;
+	width: 60%;
+	height: 35px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 li {
-	color: white;
+	color: rgb(2, 135, 147);
 	text-decoration: none;
-	
+	background-color: rgba(210, 237, 154, 0.5);	
+	list-style-type: none;
+
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: rgba(210, 237, 154, 1);
+	text-align: center;
+	margin-left: -15px;
+}
+footer ul {
+	list-style-type: none;
+	text-align: center;
+}
+footer li {
+	display: inline-block;
+}
+.nopadding {
+	padding: 0px;
 }
